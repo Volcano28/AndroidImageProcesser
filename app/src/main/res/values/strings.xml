@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TestingimageUpload</string>
-    <string name="gray">Gray Level!</string>
+    <string name="app_name">ImageProcessing</string>
+    <string name="Gray">Gray Level</string>
+    <string name="Dithering">Dither</string>
+    <string name="Brightness">Brightness</string>
     <string name="action_settings">Settings</string>
 
 </resources>

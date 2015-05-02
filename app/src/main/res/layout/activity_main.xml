@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -8,20 +8,20 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Android Image Choose Example"/>
+        android:text="Android Image Processing"/>
 
     <Button
         android:id="@+id/btn_choose"
         android:text="Choose Image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="25dp"/>
 
     <ImageView
         android:id="@+id/iv_pic"
         android:layout_width="fill_parent"
         android:layout_height="300dp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="85dp"/>
 
     <Button
         android:id="@+id/button1"
@@ -30,9 +30,30 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="87dp"
         android:layout_marginRight="17dp"
-        android:layout_toLeftOf="@+id/button3"
-        android:onClick="gray"
-        android:text="@string/gray" />
+        android:onClick="Gray"
+        android:text="@string/Gray" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"
+        android:onClick="Dithering"
+        android:text="@string/Dithering" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:onClick="Brightness"
+        android:text="@string/Brightness" />
 
 
-</LinearLayout>
+
+
+</RelativeLayout>
