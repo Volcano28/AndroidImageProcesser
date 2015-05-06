@@ -32,9 +32,11 @@ import android.widget.Toast;
 import android.content.Context;
 
 /**
- * This example shows how to create and handle image picker in Android.
+ * This example shows how to create and handle image picking in Android. Moreover Three common algorithms is being used
+ * in this program, which are Gray Level scaling, increasing Brightness and Dithering algorithms.
  *
- * @author Lorensius W. L. T <lorenz@londatiga.net>
+ *
+ * @author Volkan Oztuzun <volkanoztuzun@gmail.com>
  *
  */
 public class MainActivity extends Activity {
